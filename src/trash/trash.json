@@ -1,0 +1,65 @@
+{
+    "status": true,
+    "message": "Dispatch request status fetched successfully",
+    "code": 200,
+    "data": {
+        "customer": {
+            "name": "user 02",
+            "avatar": "https://img.icons8.com/ios-filled/50/000000/gender-neutral-user.png",
+            "id": "65012ac4714055f471493187"
+        },
+        "rider": {
+            "name": "user 01",
+            "avatar": "https://img.icons8.com/ios-filled/50/000000/gender-neutral-user.png",
+            "id": "6500ff64eb1e8a7f120da9c6",
+            "dispatcher_id": "6501325f439a350d74a594bd"
+        },
+        "payment_method": "CASH",
+        "pickup_location": {
+            "coordinates": {
+                "longitude": 3.34889,
+                "latitude": 6.599198
+            },
+            "address": "random address"
+        },
+        "delivery_location": {
+            "coordinates": {
+                "longitude": 3.34889,
+                "latitude": 6.596198
+            },
+            "address": "random address"
+        },
+        "price": {
+            "amount": 1770,
+            "currency": "ngn"
+        },
+        "distance": 0.33358477993369084,
+        "order_type": {
+            "type": "standard",
+            "load": "light"
+        },
+        "vehicle": {
+            "manufacturer": "Audi",
+            "model": "A1",
+            "year": "2023",
+            "color": "black",
+            "plate_number": "12232"
+        },
+        "status": "PENDING",
+        "dispatch_request_id": "651451ca185489df7a601a86",
+        "rating": {
+            "stars": 0,
+            "feedback": null
+        }
+    }
+}
+
+{
+    "code": 400,
+    "error": {
+        "message": "Error",
+        "reason": "Value for argument \"data\" is not a valid Firestore document. Couldn't serialize object of type \"Document\" (found in field \"payload.vehicle\"). Firestore doesn't support JavaScript objects with custom prototypes (i.e. objects that were created via the \"new\" operator)."
+    },
+    "message": "Something went wrong",
+    "status": false
+}

@@ -1,0 +1,16 @@
+export const generalEndpoints = {
+  GET_ALL_RECORDS: 'general/get-all-records',
+  GET_ALL_METRICS: 'general/get-all-metrics',
+  GET_RECORD_TO_DUPLICATE: 'general/get-record-to-duplicate',
+  GET_RECORD_BY_ID: 'general/get-record-by-id',
+  GET_RECEIVED_RECORD_BY_ID: 'get-received-record-by-id',
+  GET_ALL_RECEIVED_RECORDS: 'general/get-all-received-records',
+  GET_RECORD_PREVIEW: 'general/get-record-preview',
+  SEND_RECORD: 'general/send-record',
+  SEND_REMINDER: 'general/send-reminder',
+  DELETE_RECORD: 'general/delete-record',
+  DELETE_MULTIPLE: 'general/delete-multiple-records',
+  GENERATE_LINK_TO_SHARE: 'general/generate-link-to-share',
+  SEARCH_RECORDS: '/general/search',
+  GET_CHART_DATA: '/general/get-chart-data',
+};
